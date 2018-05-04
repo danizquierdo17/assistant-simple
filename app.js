@@ -27,7 +27,7 @@ app.use(express.static('./public')); // load UI from public folder
 app.use(bodyParser.json());
 
 // Create the service wrapper
-
+//
 var assistant = new watson.AssistantV1({
   // If unspecified here, the ASSISTANT_USERNAME and ASSISTANT_PASSWORD env properties will be checked
   // After that, the SDK will fall back to the bluemix-provided VCAP_SERVICES environment property
